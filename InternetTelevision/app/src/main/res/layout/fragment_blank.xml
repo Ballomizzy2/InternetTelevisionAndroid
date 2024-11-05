@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BlankFragment">
+
+    <TextView
+        android:id="@+id/title2"
+        android:layout_width="match_parent"
+        android:layout_height="99dp"
+        android:gravity="center"
+        android:text="Internet Television"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <ImageView
+        android:id="@+id/titleImage2"
+        android:layout_width="match_parent"
+        android:layout_height="411dp"
+        app:srcCompat="@drawable/image1" />
+
+    <TextView
+        android:id="@+id/subtitle2"
+        android:layout_width="match_parent"
+        android:layout_height="146dp"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:text="Create your own channels"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+</LinearLayout>
